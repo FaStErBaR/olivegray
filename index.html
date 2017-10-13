@@ -34,36 +34,18 @@
         		}
     		});
 		});
-		
-		
-	var isClick = false;
-	var get = function(obj) {
-	  return document.getElementById(obj)
-	};
-	get('pull').onclick = function() {
-	  if (isClick) {
-		$('#pull').removeClass('');
-		$('#pull').addClass('');
-		isClick = false
-	  } else {
-		$('#pull').removeClass('');
-		$('#pull').addClass('');
-		isClick = true
-	  }
-	}
-		
-   $('#pull').fadeIn(3000, function() {
-   $('#pull').removeClass('../images/mobile_button_green.png');
-   $('#pull').addClass('../images/close.svg').fadeOut(3000);
-});
 	</script>
 	
 </head>
 
 <body>
+<<<<<<< HEAD
+
+=======
+>>>>>>> 13805c523fe22806e0d26c249305aadbed238233
 	<!-- Адативное меню -->
 		<div class="menu1">
-			<a href="#" id="pull"></a>
+			<a href="#" id="pull" onclick="replace()"></a>
 			<ul>
 				<form action="/" method="post" class="f_search2"> 
 					<input name="searchword2" id="search2" type="search" placeholder="Поиск"/>
@@ -520,6 +502,22 @@
 			</div>
 					
 		</footer>
-
+<script>
+	function replace() {
+		var click = false;
+		var icon = document.getElementById('pull');
+		icon.onclick = function rep() {
+			if (click == false) {
+				icon.style.backgroundImage = 'url(../images/mobile_button_green.png)';
+				icon.style.backgroundRepeat = 'no-repeat';
+				click = true;
+			}else{
+				icon.style.backgroundImage = 'url(../images/close.svg)';
+				icon.style.backgroundRepeat = 'no-repeat';
+				click = false
+			}
+		}
+	}
+</script>
 </body>
 </html>
