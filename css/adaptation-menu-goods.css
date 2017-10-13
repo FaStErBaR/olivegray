@@ -3,7 +3,7 @@ a#pull {
     background-repeat: no-repeat;
 	color: #000;
     display: none;
-	border-bottom: 1px solid #e0e0e0;
+	/*border-bottom: 1px solid #e0e0e0;*/
     font-size: 24px;
     font-weight: bold;
     height: 73px;
@@ -27,7 +27,8 @@ a#pull {
 .menu1 ul{
 	background-color: #fff;
     display: none;
-    margin: 0px 0 100px 0px;
+    margin: 40px 0 100px 0px;
+    border-top: 1px solid #e0e0e0;
     position: relative;
     z-index: 500;
 }
