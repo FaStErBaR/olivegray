@@ -1,27 +1,22 @@
 a#pull {
+    background-image: url(../images/mobile_button_green.png);
+    background-repeat: no-repeat;
 	color: #000;
     display: none;
 	border-bottom: 1px solid #e0e0e0;
     font-size: 24px;
     font-weight: bold;
     height: 73px;
+    width: 73px;
     position: relative;
-    padding: 20px 0% 20px;
+    left: 22px;
+    top: 30px;
+   
     text-decoration: none;
     text-align: center;
 }
 
-a#pull:after {
-    background: url(../images/mobile_button_green.png) no-repeat scroll 0 0;
-    background-size: 70%;
-    content: "";
-    display: inline-block;
-    height: 60px;
-    position: absolute;
-    left: 25px;
-    top: 40px;
-    width: 70px;
-}
+
 
 #pull:focus span {
 	background-color: #fff;
