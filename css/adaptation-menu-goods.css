@@ -1,0 +1,144 @@
+a#pull {
+	color: #000;
+    display: none;
+	border-bottom: 1px solid #e0e0e0;
+    font-size: 24px;
+    font-weight: bold;
+    height: 73px;
+    position: relative;
+    padding: 20px 0% 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+a#pull:after {
+    background: url(../images/mobile_button_green.png) no-repeat scroll 0 0;
+    background-size: 70%;
+    content: "";
+    display: inline-block;
+    height: 60px;
+    position: absolute;
+    left: 25px;
+    top: 40px;
+    width: 70px;
+}
+
+#pull:focus span {
+	background-color: #fff;
+	display:block;
+	color:#fff;
+}
+
+.menu1 ul{
+	background-color: #fff;
+    display: none;
+    margin: 0px 0 100px 0px;
+    position: relative;
+    z-index: 500;
+}
+
+.menu1, #pull span {
+    display: block;
+    position: relative;
+    height: 0;
+}
+
+#pull span {
+	text-align: center;
+}
+
+.menu1 li a {
+    color: #959d56;
+    display: block;
+    font-size: 140%;
+    font-weight: bold;
+    padding: 20px 20px 20px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 15000;
+}
+
+.menu1 li{
+	border-bottom:1px solid #e0e0e0;
+	list-style-type: none;
+}
+
+.menu1 ul li:hover {
+    background-color: #959d56;
+}
+
+.basket2>div>a {
+	font-size: 30px;
+	color: #212121;
+}
+
+.menu1 ul li a:hover{
+	color:#fff;
+}
+
+.menu1 ul li:last-child{
+	border-bottom:none;
+}
+
+#pull:focus{
+	background:#fff;
+}
+
+.basket2>div {
+    margin-top: 15px;
+    position: relative;
+    z-index: 1000;
+}
+
+/*#pull:focus:after {
+    background: url(../images/mobile_button_green90g.png) no-repeat scroll 0 0;
+    content: "";
+    background-size: 30%;
+    display: inline-block;
+    height: 40px;
+    opacity: 0.78;
+    position: absolute;
+    right: -45px;
+    top: 10px;
+    width: 85px;
+}*/
+
+#nav ul li a{
+	color: #000;
+    display: block;
+    font-size: 140%;
+    font-weight: bold;
+    padding: 20px 20px 20px 60px;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+	text-decoration: none;
+}
+
+#search2 {
+	width: 94%;
+    margin: 0 auto;
+    height: 68px;
+    opacity: 0.5;
+    /* color: #959d56; */
+    font-size: 26px;
+    border-radius: 8px;
+    background-color: #ebece1;
+    display: block;
+    border: none;
+    position: relative;
+    padding: 2%;
+}
+
+.search_button2{
+	position: absolute;
+    right: 40px;
+    top: 37px;
+    width: 35px;
+}
+
+.f_search2{
+    border-bottom: 1px solid #e0e0e0;
+    padding: 20px 0;
+}

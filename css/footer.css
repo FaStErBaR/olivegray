@@ -1,0 +1,266 @@
+.footer_left span, .footer_right span {
+	font-size: 15px;
+} 
+
+.footer_left ul, .footer_right ul {
+	overflow: hidden;
+}
+
+.footer_left ul li{
+	list-style-type: none;
+}
+
+.footer_left ul li a{
+	color: #706e5d;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.footer_left {
+    float: left;
+	overflow: hidden;
+    width: 60%;
+}
+
+.footer_left>div {
+	float: left;
+}
+
+.footer_width {
+    margin: 40px auto 0;
+    overflow: hidden;
+    padding-bottom: 100px;
+    width: 84%;
+}
+
+.footer_left ul li a:hover{text-decoration:underline;}
+
+.footer_left_block1{
+    padding-left: 5%;
+	width: 25%;
+}
+
+.footer_left_block2{width:25%;}
+
+.footer_left_block3{width:25%;}
+
+.footer_left_block4{width:20%;}
+
+.footer_right{
+    float: right;
+    padding-right: 3%;
+    position: relative;
+    text-align: right;
+    width: 35%;
+}
+
+.footer_right ul li {
+	float: left;
+    list-style-type: none;
+    margin-right: 2%;
+}
+
+.footer_right p {
+	color: #706e5d;
+	font-size: 12px;
+}
+
+.footer_right p a {
+	font-size: 12px;
+	color: #706e5d;
+	text-decoration: none;
+}
+
+.footer_right p a:hover {
+	text-decoration: underline;
+}
+
+.seti {
+    height: 100px;
+	margin: 15px 0 15px 0;
+    overflow: hidden;
+    position: absolute;
+    padding: 0px;
+    right: 25px;
+    top: 10px;
+    width: 90%;
+}
+
+.seti>div{
+	float: right;
+    margin-right: 7px;
+}
+
+.vkseti {
+    background-color: #959d56;
+    border-radius: 20px;
+	opacity: 0;
+    padding: 10px 10px;
+    position: absolute;
+    right: -7px;
+    top: 35px;
+    z-index: 9999;
+}
+
+.vk:hover ~ .vkseti {opacity: 1;}
+
+.vkseti a {
+    color: #fff;
+    font-size: 15px;
+    margin-right: 10px;
+    padding: 10px 0px;
+    text-decoration: none;
+}
+
+.vkseti a:hover {
+	text-decoration:underline;
+}
+
+.join{
+    display: block;
+    padding-bottom: 50px;
+}
+
+footer {
+	position:relative; 
+}
+/********************************************************************************/
+
+/*.poster{
+    position: relative;
+    margin: 0px auto;
+    background-image: url(../images/vk.png);
+    height: 32px;
+    width: 32px;
+
+
+.descr{
+    display: none;
+    padding: 10px;
+    margin-top: 0px;
+    background: #f3f3f3;
+    height: 40px;
+    -moz-box-shadow: 0 5px 5px rgba(0,0,0,0.3);
+}
+
+.poster:hover .descr{
+	background-color: #959d56;
+    border-radius: 20px;
+    display:block;
+    position:absolute;
+    padding: 10px 30px;
+    top:31px;
+    width:400px;
+    z-index:9999;
+}
+
+.vk222 {
+	background-color: #959d56;
+    width: 100%;
+    padding: 10px;
+    display: none;
+    border-radius: 18px;
+}
+
+.vk222 li a {
+	text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.vk222 li {float: left;}
+
+.vk_one:hover~.vk222{display:block;}*/
+
+/*************** dropmenu ********************/
+*{
+	margin: 0;
+	padding: 0;
+}
+.dropmenu{
+	position: absolute;
+    top: 20px;
+    right: 270px;
+    width: 130px;
+    height: 49px;
+}
+
+div.dropmenu>ul>li{
+	    list-style-type: none;
+    width: 40px;
+    height: 50px;
+    /* background-color: RGB(149, 159 , 90); */
+    display: inline-block;
+    text-align: center;
+    border: 0px solid; 
+    border-radius: 5px; 
+     position: relative;
+    /* left: 100%;*/
+}
+
+div.dropmenu>ul>li:first-child{
+margin-left: 0px;
+
+}
+div.dropmenu>ul>li>a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    position: relative;
+    top: 10px;
+    width: 100%;
+    height: 100%;
+}
+div.sub>ul>li>a{
+	    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    display: block;
+    color: #fff;
+    padding-top: 10px;
+    padding-left: 8px;
+}
+
+div.sub>ul>li>a:hover{text-decoration:underline;}
+
+div.sub>ul>li{
+	list-style-type: none;
+	width: 100px;
+	height: 50px;
+	float: left;
+	position: relative;
+	
+}
+div.sub{
+	/*width: 320px;
+	height: 50px;
+	position: relative;
+	top: 10px;
+	left: -120px;
+	background-color: RGB(149, 159 , 90);
+	border: 0px solid;
+	border-radius: 15px;
+	display: none;*/
+	
+	width: 320px;
+    height: 40px;
+    position: relative;
+    top: 0px;
+    left: -136px;
+    background-color: RGB(149, 159 , 90);
+    border: 0px solid;
+    border-radius: 25px;
+    display: none;
+}
+li.submenu:hover>div.sub{
+	display: block;
+}
+a:hover>div.sub{
+	display: block;
+}
+
+/*****************end*************************/

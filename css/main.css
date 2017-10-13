@@ -1,0 +1,36 @@
+ @font-face {
+	font-family: 'Futura PT';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/futura-pt-light.eot?#iefix') format('embedded-opentype'),  url('../fonts/futura-pt-light.woff') format('woff'), url('../fonts/futura-pt-light.ttf')  format('truetype'), url('../fonts/futura-pt-light.svg#PFDinTextCondPro-Regular') format('svg');
+}
+
+body {
+	font-family: 'Futura PT', 'PFDinTextCondPro-Regular', 'Roboto Condensed', 'sans-serif';
+}
+
+img {
+	border: none;
+}
+
+* {
+	margin:0;
+	padding:0;
+}
+
+a:active, a:focus { outline: none; }
+
+.clear {clear:both;}
+
+input, textarea {outline:none;}
+
+input:active, textarea:active {outline:none;}
+
+:focus {outline:none;}
+
+textarea {resize:none;}
+
+textarea {resize:vertical;}
+
+textarea {resize:horizontal;}
+	

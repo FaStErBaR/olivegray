@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru-ru" lang="ru-ru" dir="ltr">
+<head>
+	<title>OLIVEGREY - дизайнерская женская одежда!</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<script type="text/javascript" src="lib/jquery-1.11.3.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/header.css" />
+	<link rel="stylesheet" type="text/css" href="css/section.css" />
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+	<link rel="stylesheet" type="text/css" href="css/haki.css" />
+	<link rel="stylesheet" type="text/css" href="css/footer.css" />
+	<link rel="stylesheet" type="text/css" href="css/adaptation.css" />
+	<link rel="stylesheet" type="text/css" href="css/adaptation-menu-goods.css" />
+	<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	
+	<script>
+		$(function() {
+			var pull		= $('#pull');
+				menu1 		= $('.menu1 ul');
+				menu1Height	= menu1.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu1.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu1.is(':hidden')) {
+        			menu1.removeAttr('style');
+        		}
+    		});
+		});
+		
+		
+	var isClick = false;
+	var get = function(obj) {
+	  return document.getElementById(obj)
+	};
+	get('pull').onclick = function() {
+	  if (isClick) {
+		$('#pull').removeClass('');
+		$('#pull').addClass('');
+		isClick = false
+	  } else {
+		$('#pull').removeClass('');
+		$('#pull').addClass('');
+		isClick = true
+	  }
+	}
+		
+   $('#pull').fadeIn(3000, function() {
+   $('#pull').removeClass('../images/mobile_button_green.png');
+   $('#pull').addClass('../images/close.svg').fadeOut(3000);
+});
+	</script>
+	
+</head>
+
+<body>
+	
+	<!-- Адативное меню -->
+		<div class="menu1">
+			<a href="#" id="pull"></a>
+			<ul>
+				<form action="/" method="post" class="f_search2"> 
+					<input name="searchword2" id="search2" type="search" placeholder="Поиск"/>
+					<input type="image" alt="Искать" class="search_button2" src="images/search.svg"/>		
+				</form>
+				<li>
+					<a href="#">Новинки</a>
+				</li>
+				<li>
+					<a href="#">Платья</a>
+				</li>
+				<li>
+					<a href="#">Юбки</a>
+				</li>
+				<li>
+					<a href="#">Аксессуары</a>
+				</li>
+				<li>
+					<a href="#">Акции</a>
+				</li>
+			</ul>
+		</div>
+		<!-- END --> 
+		
+		<header>
+			<div class="header_top">
+				<div class="logo">
+					<a href="#">
+						<img src="images/olivegray.png" alt="Логотип"/>
+					</a>
+					<span>Дизайнерская женская одежда</span>
+				</div>
+				
+				<div class="free_call">
+					Бесплатный звонок по РФ<br/><a href="tel:+88007700437">8 (800) 770-04-37</a>
+				</div>
+				<div class="accepting_orders">
+					Прием заказов<br/><a href="tel:+84951369807">8 (495) 136-98-07</a>
+				</div>
+				
+				<div class="basket">
+					<a href="#">Корзина</a><br/>
+					<a href="#">Войти</a>
+					<a class="basket_img" href="#">
+						<img src="images/basket.svg" alt="Корзина"/>
+					</a>
+					<a href="#" class="quantity">0</a>
+				</div>
+				
+				<div class="basket2">
+					<div>
+						<a href="#">Войти</a>
+						<a href="#">Корзина</a>
+					</div>
+						<a class="basket_img2" href="#">
+							<img src="images/basket.svg" alt="Корзина"/>
+						</a>
+						<a href="#" class="quantity2">0</a>
+				</div>
+				
+			</div>
+			
+			<div class="header_menu_search">
+				<div class="header_menu_search_width">
+					<div class="header_menu">
+						<nav>
+							<ul>
+								<li>
+									<a href="#">Новинки</a>
+								</li>
+								<li>
+									<a href="#">Платья</a>
+								</li>
+								<li>
+									<a href="#">Юбки</a>
+								</li>
+								<li>
+									<a href="#">Аксессуары</a>
+								</li>
+								<li>
+									<a href="#">Акции</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="search">	
+						<form action="/" method="post" class=""> 
+							<input name="searchword" id="search" type="search" placeholder="Поиск"/>
+							<input type="image" alt="Искать" class="search_button" src="images/search.svg"/>		
+						</form>
+					</div>
+				</div>
+			</div>	
+		</header>
+		
+		<section>
+			<div class="slides">
+				<a href="#">
+					<img src="images/slide.jpg" alt="Слайд"/>
+				</a>
+			</div>
+			
+			<div class="second_menu">
+				<nav>
+					<ul>
+						<li class="ic1">
+							<a href="#">Каталог</a>
+						</li>
+						<li class="ic2">
+							<a href="#">Lookbook</a>
+						</li>
+						<li class="ic3">
+							<a href="#">О брендах</a>
+						</li>
+						<li class="ic4">
+							<a href="#">Оплата-доставка</a>
+						</li>
+						<li class="ic5">
+							<a href="#">Партнёрам</a>
+						</li>
+						<li class="ic6">
+							<a href="#">Контакты</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			
+			<div class="wrapper">
+			
+				<div class="banners1">
+					<div>
+						<div class="b1">
+							<div>
+								 <a href="#">
+									<img src="images/banner1-01.png" alt="Баннер"/>
+								 </a>
+							</div>
+						</div>
+						<div class="b1">
+							<div>
+								<a href="#">
+									<img src="images/banner1-02.png" alt="Баннер"/>
+								</a>
+							</div>
+						</div>
+						<div class="b1">
+							<div>
+								<a href="#">
+									<img src="images/banner1-03.png" alt="Баннер"/>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<h2 class="title">Рекомендуем</h2>
+				
+				<div class="we_reccomend">
+					<ul>
+						<li>
+							<a href="#">
+								<img src="images/dress.png" alt="Платье"/>
+							</a><br/>
+							<a class="dress_name" href="#">Платье Loreta</a><br/>
+							<span>4 750 &#8381;</span>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/dress.png" alt="Платье"/>
+							</a><br/>
+							<a class="dress_name" href="#">Платье Loreta</a><br/>
+							<span>4 750 &#8381;</span>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/dress.png" alt="Платье"/>
+							</a><br/>
+							<a class="dress_name" href="#">Платье Loreta</a><br/>
+							<span class="old_price">4 750 &#8381;</span><br/>
+							<span>4 750 &#8381;</span>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/dress.png" alt="Платье"/>
+							</a><br/>
+							<a class="dress_name" href="#">Платье Loreta</a><br/>
+							<span>4 750 &#8381;</span>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/dress.png" alt="Платье"/>
+							</a><br/>
+							<a class="dress_name" href="#">Платье Loreta</a><br/>
+							<span>4 750 &#8381;</span>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/dress.png" alt="Платье"/>
+							</a><br/>
+							<a class="dress_name" href="#">Платье Loreta</a><br/>
+							<span>4 750 &#8381;</span>
+						</li>
+					</ul>
+				</div>
+				
+				<h2 class="title">Наши бренды</h2>
+				
+				<div class="brands">
+					<div class="br1">
+						<a href="#">
+							<img src="images/olivegray.png" alt="OLIVEGREY"/>
+						</a>
+					</div>
+					<div class="br2">
+						<a href="#">
+							<img src="images/marichuell.svg" alt="MARICHUELL"/>
+						</a>
+					</div>
+					<div class="br3">
+						<a href="#">
+							<img src="images/greycat.svg" alt="GREYCAT"/>
+						</a>
+					</div>
+				</div>
+							
+				<h2 class="title">Узнай больше</h2>
+				
+				<div class="banners1">
+					<div>
+						<div class="b1">
+							<div>
+								 <a href="#">
+									<img src="images/banner2-01.png" alt="Баннер"/>
+								 </a>
+								 <p>Последний размер</p>
+							</div>
+						</div>
+						<div class="b1">
+							<div>
+								<a href="#">
+									<img src="images/banner2-02.png" alt="Баннер"/>
+								</a>
+								<p>Выбери свой цвет</p>
+							</div>
+						</div>
+						<div class="b1">
+							<div>
+								<a href="#">
+									<img src="images/banner2-03.png" alt="Баннер"/>
+								</a>
+								<p>Юбки - наше всё!</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<h2 class="title">Смотри больше</h2>
+				
+				<div class="banners1">
+					
+						<div class="b1">
+							<div class="box-crew">
+								<a href="#">
+									<img src="images/olivegray-1.png" alt="Фото"/>
+								</a>
+								<div>
+									<span>
+										<a href="#">
+											<img class="img_ban" src = "images/olivegrey-grey.svg" alt="olivegrey"/>
+										</a>
+									</span> 
+								</div>
+							</div>
+							<p>Olivegray</p>
+						</div>
+						
+						<div class="b1">
+							<div class="box-crew">
+								<a href="#">
+									<img src="images/marichuell-1.png" alt="Фото"/>
+								</a>
+								<div>
+									<span>
+										<a href="#">
+											<img class="img_ban" src = "images/marichuell-grey.png" alt="marichuell"/>
+										</a>
+									</span> 
+								</div>
+							</div>
+							<p>Marichuell</p>
+						</div>
+						
+						<div class="b1">
+							<div class="box-crew">
+								<a href="#">
+									<img src="images/greycat-1.png" alt="Фото"/>
+								</a>
+								<div>
+									<span>
+										<a href="#">
+											<img class="img_ban" src = "images/greycat-grey.svg" alt="greycat-grey.png"/>
+										</a>
+									</span> 
+								</div>
+							</div>
+							<p>Gray Cat</p>
+						</div>
+						
+				</div>
+				
+			</div>
+		
+		<div class="dispatch">
+			<p>Подпишись на рассылку чтобы получать уникальные предложения и скидки</p>
+			<div class="email">	
+				<form action="/" method="post" class=""> 
+					<input name="email" id="email" type="search" placeholder="email@gmail.com"/>
+					<input type="image" alt="Искать" class="email_button" src="images/letter.png"/>		
+				</form>
+			</div>
+		</div>
+		
+		</section>
+		
+		<footer>
+			<div class="footer_width">
+				<div class="footer_left">
+				
+					<div class="footer_left_block1">
+						<span>Наш<br/> Каталог</span>
+							<ul>
+								<li><a href="#">Пальто</a></li>
+								<li><a href="#">Платья</a></li>
+								<li><a href="#">Юбки</a></li>
+								<li><a href="#">Комплекты</a></li>
+								<li><a href="#">Жакеты</a></li>
+								<li><a href="#">Жилеты</a></li>
+								<li><a href="#">Халаты</a></li>
+								<li><a href="#">Аксессуары</a></li>
+								<li><a href="#">Блузы</a></li>
+							</ul>
+					</div>
+					
+					<div class="footer_left_block2">
+						<span>Часто задаваемые<br/> вопросы</span>
+							<ul>
+								<li><a href="#">Доставка</a></li>
+								<li><a href="#">Оплата</a></li>
+								<li><a href="#">Возврат</a></li>
+								<li><a href="#">Как сделать заказ?</a></li>
+								<li><a href="#">Размерная сетка</a></li>
+								<li><a href="#">Ткани и уход за ними</a></li>
+								<li><a href="#">Вопрос-ответ</a></li>
+							</ul>
+					</div>
+					
+					<div class="footer_left_block3">
+						<span>Дополнительная<br/> информация</span>
+							<ul>
+								<li><a href="#">О брендах</a></li>
+								<li><a href="#">Lookbook</a></li>
+								<li><a href="#">Партнерам</a></li>
+								<li><a href="#">Контакты</a></li>
+								<li><a href="#">Задать вопрос</a></li>
+							</ul> 
+					</div>
+					
+					<div class="footer_left_block4">
+						<span>Специальные<br/> предложения</span>
+							<ul>
+								<li><a href="#">Новинки</a></li>
+								<li><a href="#">Акции</a></li>
+								<li><a href="#">Скидки</a></li>
+								<li><a href="#">Последний размер</a></li>
+							</ul>
+					</div>
+				</div>
+				
+				<div class="footer_right">
+					<span class="join">Присоединяйтесь</span> 
+														
+					<p>
+						Приём заказов и консультация<br/>
+						<a href="tel:‎+84951369807">‎8 (495) 136-98-07</a><br/>
+						Бесплатный звонок из любого региона РФ <br/>
+						<a href="tel:‎+88007700437">‎8 (800) 770-04-37</a><br/>
+						Пункт самовывоза<br/>
+						г. Москва, Окружной проезд, д. 5, строение 1<br/>
+						(5 минут от ст.м. Черкизовская)<br/><br/>
+						<a href="mailto:manager@olivegrey.ru" title="manager@olivegrey.ru">manager@olivegrey.ru</a>
+					</p>
+				</div>
+			
+			</div>
+			
+			<div class="dr">		
+					<div class="dropmenu">
+						<ul>
+							<li class="submenu"><a href="#"><img src="images/vk.svg" alt="vk"/></a>
+								<div class="sub">
+									<ul>
+										<li><a href="#">OliveGrey</a></li>
+										<li><a href="#">Marichuell</a></li>
+										<li><a href="#">Gray Cat</a></li>
+									</ul>
+								</div>
+							</li>
+							<li class="submenu"><a href="#"><img src="images/facebook.svg" alt="facebook"/></a>
+								<div class="sub">
+									<ul>
+										<li><a href="#">OliveGrey</a></li>
+										<li><a href="#">Marichuell</a></li>
+										<li><a href="#">Gray Cat</a></li>
+									</ul>
+								</div>
+							</li>
+							<li class="submenu"><a href="#"><img src="images/instagram.svg" alt="instagram"/></a>
+								<div class="sub">
+									<ul>
+										<li><a href="#">OliveGrey</a></li>
+										<li><a href="#">Marichuell</a></li>
+										<li><a href="#">Gray Cat</a></li>
+									</ul>
+								</div>
+							</li>
+						</ul> 
+					</div>
+					
+			</div>
+					
+		</footer>
+
+</body>
+</html>
